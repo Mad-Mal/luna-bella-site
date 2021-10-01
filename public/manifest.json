@@ -1,7 +1,6 @@
 {
   "short_name": "Luna Bella",
   "name": "Website for Luna Bella",
-  "start_url": "https://lunabella.com",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

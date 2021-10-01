@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+
+.head-outer-wrap {
+    width: 100%;
+}
+
+.head-inner-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.head-title-address-wrap {
+    width: 95%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.head-title {
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+}
+
+.luna {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 10rem;
+    display: flex;
+    align-self: center;
+    letter-spacing: 0.75rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.bella {
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 10rem;
+    font-weight: 100;
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    z-index: 2;
+    margin: 6.5rem 0 0 4rem;
+}
+
+.head-address {
+    position: absolute;
+    z-index: 3;
+    margin: 24rem 0 0 0;
+    font-size: 1.25rem;
+}
+
+.head-social-wrap {
+    display: flex;
+    flex-flow: column nowrap;
+}
