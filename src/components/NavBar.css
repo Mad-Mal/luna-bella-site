@@ -1,0 +1,46 @@
+.outer-nav-wrap {
+    margin-top: 35rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.inner-nav-wrap {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.list-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-self: center;
+    justify-content: center;
+    width: 75%;
+    border-top: solid white;
+    border-bottom: solid white;
+    list-style-type: none;
+}
+
+.nav-items {
+    font-size: 4rem;
+    color: white;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.anchors:hover {
+    cursor: pointer;
+}
