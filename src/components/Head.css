@@ -28,6 +28,7 @@
 .luna {
     font-family: 'Gemunu Libre', sans-serif;
     font-size: 10rem;
+    color: white;
     display: flex;
     align-self: center;
     letter-spacing: 0.75rem;
@@ -39,6 +40,7 @@
     font-family: 'Bonheur Royale', cursive;
     font-size: 10rem;
     font-weight: 100;
+    color: white;
     display: flex;
     align-self: flex-end;
     position: absolute;
@@ -49,11 +51,29 @@
 .head-address {
     position: absolute;
     z-index: 3;
-    margin: 24rem 0 0 0;
+    margin: 24rem 0 0 2rem;
     font-size: 1.25rem;
+    color: white;
 }
 
 .head-social-wrap {
     display: flex;
     flex-flow: column nowrap;
+}
+
+.social-icons {
+    margin: 1rem;
+}
+
+.social-icons:hover {
+    cursor: pointer;
+}
+
+.fbLogo {
+    border-radius:  4px;
+}
+
+.tripLogo {
+    background-color: white;
+    border-radius:  4px;
 }
